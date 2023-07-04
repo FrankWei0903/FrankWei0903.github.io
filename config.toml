@@ -32,36 +32,13 @@ url = "/categories/"
 
 weight = 20
 
-[params.profileMode]
-enabled = true
-title = "Enter the Content"
-subtitle = "Enter the Content"
-imageUrl = "img/W.jfif"
-imageWidth = 120
-imageHeight = 120
-imageTitle = "Enter the content"
-[[params.profileMode.buttons]]
-name = "Blog"
-url = "/posts/"
+[[menu.main]]
 
-[[params.profileMode.buttons]]
-name = "Categories"
-url = "/categories/"
-[[params.socialIcons]]
-name = "github"
-url = "your github profile url"
-#...more
+identifier = "archives"
 
-[params] 
-ShowBreadCrumbs = true    
-#展示文章所在目錄
-ShowReadingTime = true    
-#展示閱讀時間
-ShowShareButtons = true    
-#展示分享按鈕
-ShowPostNavLinks = true    
-#本地其他文章連結
+name = "Archives"
 
-[params.cover]
-linkFullImages = true    
-#點擊圖片後以全螢幕檢視
+url = "/archives/"
+
+weight = 30
+

@@ -1,7 +1,10 @@
 ---
 title: "My First Post"
 date: 2023-07-04T10:05:18+08:00
-draft: false 	
+draft: false
+tags: ["code","test"]
+categories: ["Markdown"]
+
 ---
 # Hello World!
 # Heading 1
